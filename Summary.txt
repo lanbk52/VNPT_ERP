@@ -1,0 +1,9 @@
+SSDC_SL-1: Perception test of two text-to-speech systems: VBEE and Ailab
+SSDC_SL-2: Mockup Screen for Mobile Queuing App: BIDV application
+SSDC_ERP-79: Mockup Screen For Part and Part Category Management
+SSDC_ERP-107: Create mockups for Sprint 2: Logistics Management
+SSDC_ERP-115: Review Mockups for Planning Management
+SSDC_ERP-117: Write documents on Confluence for Part and Part Category Management
+SSDC_ERP-122: Write documents on Confluence for Logistics Management
+SSDC_ERP-125: Update Mockup Screens: Logistics Management
+SSDC_ERP-150: Write documents on Confluence for User & Permission Management
