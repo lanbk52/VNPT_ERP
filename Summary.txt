@@ -7,3 +7,9 @@ SSDC_ERP-117: Write documents on Confluence for Part and Part Category Managemen
 SSDC_ERP-122: Write documents on Confluence for Logistics Management
 SSDC_ERP-125: Update Mockup Screens: Logistics Management
 SSDC_ERP-150: Write documents on Confluence for User & Permission Management
+SSDC_ERP-151: Write documents on Confluence for Product Management 
+SSDC_ERP-152: Write documents on Confluence for Manufacturer Management
+SSDC_ERP-153: Write documents on Confluence for Supplier Management 
+SSDC_ERP-155: Write documents on Confluence for BoM Management 
+SSDC_ERP-160: Mockup Screen for Permission Management
+
