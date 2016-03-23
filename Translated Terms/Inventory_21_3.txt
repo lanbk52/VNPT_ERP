@@ -1,0 +1,56 @@
+1. Quản lý linh kiện hàng hóa
+->Material and finished product management
+1.1. Nhập kho
+->Inventory receiving
+1.1. Thông tin Shipment
+->Shipment information
+1.2. Tạo phiếu nhập kho
+->Create Inventory receiving paper
+1.3. Thực hiện nhập kho vật tư linh kiện
+->Excute Material inventory receiving
+1.4. Thông tin kiểm tra IQC
+->IQC test information
+1.5. Chuyển trạng thái nhập kho sau khi có kết quả IQC
+->Change Inventory receiving status after having IQC test results
+1.6. Tạo phiếu yêu cầu xuất với IQC not-pass
+->Create Inventory delivery paper for not-passed IQCs
+1.2. Xuất kho
+->Inventory delivery
+1.7. Tiếp nhận yêu cầu xuất kho để sản xuất từ nhà máy
+->Receive Inventory delivery requests for manufacture from factory
+1.8. Lập phiếu yều cấu xuất
+->Create Inventory delivery request paper
+1.8.1. Linh kiện được xuất cho dúng dự án
+->Right project exported materials
+1.8.2. Linh kiện xuất cho dự án khác
+->Different project exported materials
+1.9. Hoạch toán 
+->Accounting
+2. Quản lý thành phẩm
+->Finished products management
+2.1. Nhập kho
+->Inventory receiving
+2.1.1. Nhận báo cáo chất lượng nghiệm thu chất lượng sản phẩm
+->Receive product quality acceptance test report
+2.1.2. Kiểm tra hồ sơ nhập
+->Check inventory receiving record
+2.1.3. Lập phiếu nhập kho
+->Create inventory receiving paper
+2.1.4. Nhập kho và cập nhật dữ liệu
+->Inventory receiving and data updating
+2.2. Xuất kho
+->Inventory delivery
+2.2.1. Tiếp nhận yêu cầu xuất kho của bộ phận kinh doanh
+->Receive Inventory delivery request from business department
+2.2.2. Kiểm tra tồn kho
+->Check stock
+2.2.3. Lập danh mục hàng xuất
+->Create Export material list
+2.2.4. Lập phiếu xuất kho
+->Create Inventory delivery paper
+2.2.5. Chuyển hồ sơ cho QA
+->Transfer records to QA
+2.2.6. Tiếp nhận kết quả từ QA: Phiếu kiểm nghiệm
+->Receive QA results: Inspection paper
+2.2.7. Thực hiện xuất kho
+->Excute Inventory delivery
