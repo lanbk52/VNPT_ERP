@@ -1,0 +1,139 @@
+@charset utf-8;
+html{background:url(../images/bgr.jpg) repeat center top fixed}
+body{max-width:1750px;min-width:960px;width:88%}
+#pageWrapper{position:relative}
+#topBar{background:url(../images/bltrans.png) repeat;position:absolute;right:10px;border:#111 solid 1px;width:auto;height:32px;z-index:10}
+.toplinks{position:relative;right:0}
+.toplinks ul.isuser li{text-transform:uppercase;font-size:12px;line-height:25px}
+.toplinks ul.isuser li.welcomelink{color:#eaeaea;display:block}
+.toplinks ul.isuser li.welcomelink a{color:#70ACF6}
+.logo{padding:0 0 5px 25px}
+.logo img{border:none}
+#searchBox .textbox{background:#111 url(../images/searchbg.png) repeat-x left top;height:28px;border:#3d3d3d solid 1px;border-right:none;border-radius:0;color:#fff;width:300px}
+#searchBox .searchbtn{border:#3d3d3d solid 1px;border-left:none}
+.navbar{background:url(../images/sbg.jpg) repeat;border-radius:0;height:72px}
+.navtabs{height:48px;background:url(../images/nav-bg.png) repeat-x left top}
+.navtabs li{background:url(../images/line-menu.jpg) no-repeat right top}
+.navtabs li a.navtab{height:48px;line-height:45px;background:none;text-transform:uppercase;color:#fff}
+.navtabs li.selected{height:100%}
+.navtabs li.selected a.navtab,.navtabs li.selected a.navtab:hover{height:100%;background:url(../images/menu-hover.jpg) repeat-x left top;color:#fff}
+.navtabs li a.navtab:hover{background:url(../images/nav-bg.png) repeat-x left bottom;color:#fff}
+.navtabs ul{top:46px;border-radius:0}
+.navtabs li.selected li a.popupctrl,.navtabs li.selected li a{color:#9f9f9f}
+.breadcrumb{background:url(../images/sbg.jpg) repeat;color:#ccc;padding:10px 0 0 10px}
+.footer_time,.footer_copyright,.footer_morecopyright{color:#eaeaea}
+.thead_bar .theadrow{background:url(../images/nav-bg.png) repeat-x left -87px;border:#393939 solid 1px;border-top:none;border-bottom:none}
+.tcatBar{background:#c6c6c6 url(../images/tcat-bar.png) repeat-x left top;border:#ccc solid 1px;border-bottom:none;width:99.7%;color:#666}
+.tcatBar a{text-transform:uppercase;font-family:Segoe UI, Arial;color:#678E1C}
+.forumbit_nopost .forumbit_nopost .forumrow,.forumbit_post .forumrow{background:#ECECEC;box-shadow:none;border:#ccc solid 1px;border-top:none}
+#sidebar_container a.title{color:#333}
+.bottomBar{background:#B0C127}
+#sidebar_container > ul{background:#ECECEC;border:#ccc solid 1px}
+.forumhead,.blockhead,.forum_info .blockhead{background:url(../images/nav-bg.png) repeat-x left -85px;text-transform:uppercase;font-family:Segoe UI, Arial;border:#555 solid 1px;box-shadow:none!important;border-radius:0!important;width:99.9%}
+.forumhead{padding-top:4px;padding-bottom:4px;background-position:left -62px}
+.blockhead{border:none;width:99.1%;padding:4px .6%}
+#content_container #content .tcatBar{width:99.8%}
+#content_container #content .thead_bar,#content_container #content .forumbit_post{width:100%}
+.thread_info h4,#forum_icon_legend h5{background:url(../images/nav-bg.png) repeat-x left -85px;border:#3A3A3A solid 1px}
+.thread_info h2.blockhead{width:98.9%}
+.tabs{background:url(../images/tcat-bar.png) repeat-x left top #C6C6C6;border-bottom:#ccc solid 1px;border-top:none}
+.tabs li{border-right:#ccc solid 1px}
+.textbox,textarea,select{border:#ccc solid 1px;border-radius:0}
+.mainbox{border:#ccc solid 1px}
+#pagetitle{padding-left:10px;margin-top:15px}
+.postbit .posthead,.postbitlegacy .posthead,.eventbit .eventhead{background:url(../images/nav-bg.png) repeat-x left -87px;border:#393939 solid 1px}
+.postbitlegacy .userinfo{background:url(../images/tcat-bar.png) repeat-x left bottom #ECECEC}
+.postbitlegacy .postdetails,.eventbit .eventdetails{background:#C8C8C8}
+.newcontent_textcontrol{background:url(../images/menu-hover.jpg) repeat-x left top;border:#93A306 solid 1px;margin-left:5px}
+.above_postlist,#above_postlist{width:99%;padding:15px .5% 0}
+.pagination span a{color:#999}
+.pagination span.selected a{border:#93A306 solid 1px;background:#A3B21E}
+.options_block .blockhead{width:98.8%;padding:4px 1%}
+.thread_info .blockbody{box-shadow:2px 2px 3px rgba(0,0,0,0.1)}
+.bbcode_container div.bbcode_quote,.bbcode_container div.bbcode_code,.bbcode_container pre.bbcode_code{background:#f1f1f1;border:#ccc solid 1px}
+#usercp_nav .blockrow .active{background-color:#ccc}
+h2.searchlisthead{background:url(../images/menu-hover.jpg) repeat-x left top}
+.threadbit .nonsticky,.threadbit .discussionrow,.threadbit .sticky,.threadbit .alt{background-color:#eaeaea;border-color:#ccc}
+.body_wrapper{background:#fff url(../images/sbg.jpg) repeat-x left 10px}
+.hlslide{position:relative;width:216px;height:319px;float:left;margin:10px 1%}
+.hlslide .hls-body{width:216px;height:319px;overflow:hidden}
+.hlslide .hls-body .hmp-slide{margin:0;padding:0}
+.hlslide .hls-body .hmp-slide li{width:214px;height:317px;border:#ECECEC solid 1px;list-style:none;position:absolute;left:0;top:0;overflow:hidden;display:none;margin:0;padding:0}
+.hlslide .hls-body .hmp-slide li:first-child{display:block}
+.hlslide .hls-body .hmp-slide li img{width:100%;min-height:100%;border:none}
+.hlslide .hls-body .hmp-slide li:hover{border-color:#333}
+.hlslide .hmp-control{position:absolute;top:290px;left:5px;display:inline;z-index:5;margin:0;padding:0}
+.hlslide .hmp-control li{list-style:none;display:block;height:8px;width:8px;float:left;overflow:hidden;border:#666 solid 1px;background:#ccc;margin:0 3px 3px 0;padding:0}
+.hlslide .hmp-control li:hover{background:#999}
+.hlslide .hmp-control li.active{border:#eaeaea solid 1px;background:green}
+.hlslide .hmp-control li span{margin-top:30px;display:block}
+.hl-announce{width:49%;float:left;margin-left:1%}
+.hl-announce ul{padding:15px 0 0 20px}
+.hl-announce li{list-style:square;font-size:20px;padding:0 0 10px 10px}
+.hl-announce li a{font-size:16px;font-family:Segoe UI, Tahoma;color:#555}
+#pollinfo{margin-top:25px}
+ol#controls,ol#tvsControls{height:28px;display:inline;position:absolute;left:0;bottom:0;margin:3px 0 0;padding:0}
+ol#controls li,ol#tvsControls li{float:left;list-style:none;height:28px;line-height:28px;margin:0 0 0 5px;padding:0}
+ol#controls li a,ol#tvsControls li a{float:left;height:18px;line-height:18px;border:1px solid #111;background-image:0 21% #000 100%;background-color:#333;color:#fff;text-decoration:none;border-radius:4px;padding:0 5px}
+ol#controls li a:hover,ol#tvsControls li a:hover,ol#controls li.current a,ol#tvsControls li.current a{background-image:0 21% #e0e0e0 100%;background-color:#E0E0E0;color:#333;border-color:#999}
+ol#controls li a:focus,#prevBtn a:focus,#nextBtn a:focus,ol#tvsControls li a:focus{outline:none}
+.member_content{padding-top:15px}
+#sidebar_container.member_summary{background:#ECECEC;box-shadow:none;border-color:#ccc}
+.userprof_moduleinactive{background:#f1f1f1;border-color:#ccc}
+dd.userprof_module{background-color:#333;margin-left:2px;border-color:#111}
+dd.userprof_moduleinactive{background-color:#ccc;margin-left:2px;border-color:#999}
+.memberprofiletabunder{background-color:#333}
+.pagination span a,.pagination span a.popupctrl{background-color:#f1f1f1;border-color:#eaeaea}
+#visitor_message_inlinemod_form{padding-top:25px}
+.profile_content #pagination_top{margin-top:5px;float:right}
+.profile_content .formcontrols .blockrow{border-top:none}
+#postlist_popups a,.postlist_popups a,.postlist_popups a:hover,#postlist_popups a:hover{color:#2D404C}
+#notices .restore{margin-top:25px;background:#B8C831;border:1px solid #A3B218;box-shadow:none;width:96%;margin-left:10px}
+.toplinks .notifications a.popupctrl:hover,.toplinks .nonotifications a.popupctrl:hover,.toplinks .nonotifications a.popupctrl.active,.toplinks ul.isuser li a:hover{background-color:#97A713}
+.chatboxtable .blockhead{padding-top:8px;padding-bottom:8px;background-position:left -62px}
+.chatboxtable .blockhead .popupctrl{text-transform:uppercase}
+.new-ann{background:url(../images/new.gif) no-repeat right center;padding-right:27px}
+.hot-ann{background:url(../images/hot.gif) no-repeat right center;padding-right:33px}
+.above_threadlist{background:#fff}
+.above_threadlist .newcontent_textcontrol{margin-top:5px}
+.threadbit .threadtitle a{font-weight:700;color:#036C9B}
+.topx-content .topx-content-tab a{color:#036C9B}
+#threadlist .threadlisthead{box-shadow:none;border-color:#333}
+.labelsub{width:100%;height:66px;background:url(../images/labels/Sub.png) no-repeat left top;margin-top:10px}
+.label-detail{background:#F1F1F1;border:1px solid #EAEAEA;border-radius:5px;margin-left:5px;margin-top:5px;width:95%;padding:10px 2%}
+.labeltrailer{width:100%;height:66px;background:url(../images/labels/Trailer.png) no-repeat left top;margin-top:10px}
+.labelscreen{width:100%;height:66px;background:url(../images/labels/Screen.png) no-repeat left top;margin-top:10px}
+.labelinfo{width:100%;height:66px;background:url(../images/labels/Info.png) no-repeat left top;margin-top:10px}
+.labelimdb{width:100%;height:66px;background:url(../images/labels/IMDb.png) no-repeat left top;margin-top:10px}
+.labelreview{width:100%;height:66px;background:url(../images/labels/Review.png) no-repeat left top;margin-top:10px}
+.labeldownload{width:100%;height:66px;background:url(../images/labels/Download.png) no-repeat left top;margin-top:10px}
+.labelmf{width:100%;height:66px;background:url(../images/labels/MF.png) no-repeat left top;margin-top:10px}
+.labelfshare{width:100%;height:66px;background:url(../images/labels/Fshare.png) no-repeat left top;margin-top:10px}
+.label4s{width:100%;height:66px;background:url(../images/labels/4S.png) no-repeat left top;margin-top:10px}
+.labelmgs{width:100%;height:66px;background:url(../images/labels/MGS.png) no-repeat left top;margin-top:10px}
+.labeltenlua{width:100%;height:66px;background:url(../images/labels/tenlua.png) no-repeat left top;margin-top:10px}
+.labelinfo-detail{font-family:"Courier New", Courier, monospace;overflow:auto;max-height:300px}
+.labelinfo-detail br{display:none}
+.ureporter{background:url(../images/prefixuser/prefix-reporter.png) no-repeat left 2px;padding-left:49px}
+.udesigner{background:url(../images/prefixuser/prefix-designer.png) no-repeat left 2px;padding-left:49px}
+#ad_global_below_navbar{text-align:center;margin:20px 0 0}
+.general-img{opacity:0.8}
+.general-img:hover{opacity:1}
+.btn-show{background:url(../images/show.png) no-repeat 0 0;width:187px;height:33px;display:block;text-indent:-500px;border:none;cursor:pointer; margin:5px auto;}
+.btn-show:hover{background-position:0 -33px}
+.btn-hide{background-position:0 -66px}
+.btn-hide:hover{background-position:left bottom}
+.spoiler-content{padding:5px 0}
+body a,.forumrow .forumtitle a:link,.forumrow .forumtitle a:visited,#sidebar_container a,.tcatBar .forumtitle{color:#678E1C}
+.toplinks ul.isuser li a,.breadcrumb .navbit a:link,.breadcrumb .navbit a:visited,.below_body .time,.footerNav a:link,.footerNav a:visited,a.notreg:link,a.notreg:visited{color:#BACC30}
+.toplinks ul.isuser li.welcomelink a:hover,#notices .restore a{color:#fff}
+.above_body,.below_body,.footerNav{background:url(../images/bgr_head.jpg) repeat}
+.thead_bar,.forumbit_post{width:99.9%}
+#forums a.username,.userprof_content a{color:#1987F5}
+.wgo_block,.footer,.forumbit_post .forumrow,.forumbit_nopost .forumhead,.forumbit_nopost .forumrow,.forumbit_post .forumhead,.forumbits .forumhead,.threadbit,.forum_info .blockbody{box-shadow:none}
+#content_container #content .blockhead,.thread_info .threadinfohead{width:98.7%}
+.tabs li:hover,#usercp_nav .blockrow * a:hover{background-color:#eaeaea}
+#usercp_nav .blockhead,.forum_info .blockhead{width:98.8%}
+.thanks-box .postcontent a{font-style:normal}
+.thanks-box .postcontent{font-size:11px;line-height:17px;font-style:italic;color:#999}
+.footerNav a {white-space:nowrap;}
